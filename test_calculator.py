@@ -10,3 +10,8 @@ class TestAddition(unittest.TestCase):
 class TestSubtraction(unittest.TestCase):
     def test_subtract(self):
         self.assertEqual(2, calculator.subtract(4, 2))
+
+
+class TestMultiplication(unittest.TestCase):
+    def test_multiply(self):
+        self.assertEqual(2, calculator.multiply(10, 10))
